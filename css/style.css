@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    height: 100vh;
+    color: black;
+    /* background-color: rgb(173, 222, 241); */
+}
+.navbar{
+    display: flex;
+    height: 15%;
+    align-items: center;
+    padding: 5px;
+}
+.logo{
+    margin-left: 2%;
+}
+.list{
+    display: flex;
+    justify-content:flex-start;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+    padding-right: 10px;
+}
+.list-items{
+    width: 90px;
+    padding: 5px 10px;
+    font-size: 20px;
+    color: #a7a7a7;
+    align-items: center;
+    transition: border-bottom 200ms;
+}
+.list-items:hover{
+    border-bottom: 2px solid black;
+    color: black;
+}
+.register-now-btn{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register{
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    color: #5555f2;
+    border:1px solid #5555f2;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 200ms, color 200ms;
+}
+.register:hover{
+    background-color: #5555f2;
+    color: white;
+}
+.content1{
+    height: 65vh;
+    display: flex;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.text1{
+    width: 50%;
+    height: 100%;
+    flex:66%;
+    display: flex;
+    flex-direction: column;
+}
+.subtext1{
+    width: 100%;
+    height: 50%;
+    font-size: 50px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+}
+.subtext2{
+    width: 100%;
+    height: 25%;
+    font-size: 15px;
+    color: #a7a7a7;
+    padding-top: 10px;
+}
+.subbtn{
+    width: 100%;
+    height: 25%;
+}
+.general{
+    width: 150px;
+    height: 40px;
+    font-size:17px;
+    background-color: transparent;
+    color:#5555f2;
+    border-radius: 20px;
+    border: 2px solid #5555f2;
+    cursor: pointer;
+    margin-left: 2%;
+    transition: background-color 200ms, color 200ms;
+}
+.general:hover{
+    background-color: #5555f2;
+    color: white;
+}
+.img1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content2{
+    margin-top: 2%;
+    margin-left: 2%;
+    height: 30vh;
+    display: flex;
+}
+.subtext21{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 900;
+}
+.subtext22{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    color: #a7a7a7;
+
+}
+
+.cards{
+    margin-top: 2%;
+    height: 80vh;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.cards-row2, .cards-row1 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 2%;
+}
+.card h1{
+    font-weight: 900;
+}
+.card h4{
+    color: #a7a7a7;
+    font-size: 11px;
+}
+
+.price{
+    margin-top: 5% ;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color:#7a7ae7
+}
+.banner{
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+}
+.pricing{
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.pricing-card{
+    width: 25%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.pricing-card div:nth-child(1) div:nth-child(1){
+    color: #5555f2;
+    font-size: 25px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+}
+.pricing-card div:nth-child(1) div:nth-child(2){
+    color: #a7a7a7;
+    font-size: 13px;
+    font-weight: 700;
+    padding-top: 5px;
+}
+.special-card{
+    color: white;
+    background-color: rgb(53, 50, 50);
+    padding: 2px 5px;
+    border-radius: 10px;
+}
+.pricing-card div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-weight: 700;
+    padding: 10px 5px;
+}
+.pricing-card div:nth-child(2) li{
+    list-style: none;
+    display: flex;
+    justify-items: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+.pricing-card div:nth-child(2) i{
+    padding-right: 10px;
+}
+.check{
+    color: green;
+}
+.pricing-card div:nth-child(3) h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+.pricing-card div:nth-child(3) span{
+    color: #a7a7a7;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.pricing-card div:nth-child(3) h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #a7a7a7;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 5px 0;
+}
+.pricing-card div:nth-child(4) {
+    padding-top: 10px;
+}
+.pricing-card div:nth-child(4) button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    background-color: #7a7ae7;
+    color: white;
+    border-color:#7a7ae7;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 32%;
+}
+.our-customer{
+    margin-top: 2%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.our-customer div:nth-child(1){
+    font-size: 40px;
+    font-weight: 900;
+    height:40%;
+}
+.our-customer div:nth-child(2){
+    height: 50%;
+    font-size: 10px;
+    color: #a7a7a7;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.customer-review{
+    margin-top: 2%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+.customer-review-row1{
+    height: 50%;
+    display: flex;
+    padding: 5px 0;
+    justify-content: space-evenly;
+}
+.review-card{
+    border: 1px solid black;
+    width: 45%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.reviewtext{
+    font-size: 15px;
+    font-weight: 700;
+    color: #a7a7a7;
+}
+.reviewname{
+    display: flex;
+}
+.reviewimg{
+    margin-top: 5%;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    padding: 10px;
+}
+.reviewimg div{
+    width: 50px;
+    height: 50px;
+    background-color: grey;
+    border-radius: 50%;
+}
+.reviewtxt{
+    margin-top:5%;
+    font-size: 15px;
+    font-weight: 900;
+}
+.reviewtxt h5{
+    font-size:12px;
+    color: #a7a7a7;
+    font-weight: 700;
+}
+.quit-worry{
+    margin-top: 2%;
+    height: 30vh;
+    background-color: #7a7ae7;
+    color: white;
+    display: flex;
+    padding: 20px;
+}
+.qwtext{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.qwtext1{
+    font-size: 40px;
+    font-weight: 900;
+    padding: 0 10px;
+}
+.qwtext2{
+    width: 600px;
+    font-size:10px;
+    padding: 20px 10px;
+}
+.qwbtn{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.qwbtn button{
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-right: 5%;
+}
+.footer{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.section-1{
+    width: 18%;
+    padding: 5px 5px;
+    display: flex;
+    flex-direction:column;
+}
+.section-1 h4{
+    font-size: 9px;
+    color: #656464;
+}
+.section-2{
+    width: 18%;
+    padding: 5px 5px;
+}
+.section-2 h1 , .section-3 h1 , .section-4 h1, .section-5 h1{
+    color: #7a7ae7;
+    font-size: 22px;
+}
+.section-2 li , .section-3 li , .section-4 li{
+    list-style: none;
+    font-size: 10px;
+    padding: 5px 0;
+    color: #656464;
+    font-weight: 600;
+}
+.section-3{
+    width: 18%;
+    padding: 5px 5px;
+}
+.section-4{
+    width: 18%;
+    padding: 5px 5px;
+}
+.section-5{
+    width: 18%;
+    padding: 5px 5px;
+}
+.section-5 i{
+    color: #5555f2;
+    padding: 20px 2px;
+}
