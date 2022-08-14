@@ -439,10 +439,7 @@
     color: #5555f2;
     padding: 20px 2px;
 }
-@media screen and (max-width:900px) {
-    .navbar , .content1 , .content2 , .cards , .price , .our-customer , .quit-worry {
-        border: 1px solid red;
-    }
+@media screen and (max-width:900px) {    
     .navbar{
         flex-direction: column;
         height: 30vh;    
